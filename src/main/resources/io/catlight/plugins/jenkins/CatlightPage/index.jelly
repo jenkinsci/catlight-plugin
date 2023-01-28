@@ -1,0 +1,54 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:l="/lib/layout">
+    <l:layout title="${%CatLight}">
+        <link type="text/css" rel="stylesheet" href="${resURL}/plugin/catlight/catlight-style.css"/>
+
+        <l:main-panel>
+            <div class="catlight-page">
+                <div>
+                    <img src="${resURL}/plugin/catlight/app-128.png"/>
+                </div>
+                <h1>CatLight</h1>
+
+                <h3>
+                    Get actionable notifications about your builds, releases, pull requests, and issues
+                </h3>
+
+                <div>
+                    <a href="https://catlight.io/?utm_source=jenkins-extension"
+                       target="_blank"
+                       class="catlight-button"
+                       id="learnMoreButton">
+                        Learn more
+                    </a>
+
+                    <a href="https://catlight.io/?utm_source=jenkins-extension'"
+                       target="_blank"
+                       class="catlight-button"
+                       id="downloadButton">
+                        Download app
+                    </a>
+
+                </div>
+
+                <div class="configuration-panel">
+                    <j:if test="${it.isConfigured}">
+                        <h4>Accelerated notifications are enabled ⚡</h4>
+                        <p>If you have multiple CatLight teams, configure them in
+                            <a href="${it.configurationPageUrl}">global settings</a>
+                        </p>
+                    </j:if>
+
+
+                    <j:if test="${!it.isConfigured}">
+                        <h4>Set your CatLight team id in
+                            <a href="${it.configurationPageUrl}">global settings</a>
+                            to enable accelerated notifications
+                        </h4>
+                    </j:if>
+                </div>
+            </div>
+        </l:main-panel>
+    </l:layout>
+
+</j:jelly>

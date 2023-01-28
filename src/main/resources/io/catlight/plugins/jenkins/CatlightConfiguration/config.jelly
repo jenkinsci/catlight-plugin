@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+    <f:section title="${%CatLight Plugin}">
+        <div id="catlightConfig"/>
+        <f:entry field="teamIds" title="${%CatLight Team ID}">
+            <f:textbox/>
+        </f:entry>
+
+        <p class="jenkins-form-description">
+
+            Set CatLight team id to link this Jenkins server to CatLight and enable accelerated notifications.
+            You can find your team id in the CatLight app. Go to "Help and Feedback" menu -&gt; "About".
+            The team id looks like "XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX".
+
+            If you don't use CatLight yourself, and just want to configure accelerated notifications
+            for other users, ask one of them to provide a CatLight team id for you.
+        </p>
+
+
+        <p class="jenkins-form-description">
+            If you have multiple CatLight teams on this Jenkins instance, then add all the team ids, separated by
+            commas. To disable accelerated notifications, clear this field.
+        </p>
+
+        <p class="jenkins-form-description">
+            Learn more about
+            <a href="https://support.catlight.io/i507-how-to-configure-accelerated-notifications-for-jenkins"
+               target="_blank">
+                CatLight Jenkins notifications
+            </a>
+            on our support portal.
+        </p>
+
+    </f:section>
+</j:jelly>

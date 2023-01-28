@@ -1,0 +1,5 @@
+<?jelly escape-by-default='true'?>
+<div>
+    Get build notifications and monitor your pipelines with <a href="https://catlight.io">CatLight</a>.
+    Better alternative to email and chat job notifications.
+</div>

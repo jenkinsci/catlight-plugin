@@ -1,0 +1,33 @@
+.catlight-page {
+    text-align: center;
+}
+
+
+.catlight-page h1 {
+    margin-top: 2rem;
+}
+
+.catlight-page .configuration-panel {
+    margin-top: 5rem;
+}
+
+.catlight-page .configuration-panel h4 {
+    margin-bottom: 0;
+}
+
+
+.catlight-page a.catlight-button, .catlight-page a.catlight-button:link, .catlight-page a.catlight-button:visited {
+    background-color: #4c82f7;
+    color: white;
+    border-radius: 5px;
+    padding: 0.8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.catlight-page a.catlight-button:hover, .catlight-page a.catlight-button:active {
+    background-color: #175af5;
+}
