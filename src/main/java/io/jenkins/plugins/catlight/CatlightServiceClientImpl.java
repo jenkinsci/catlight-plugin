@@ -1,4 +1,4 @@
-package io.catlight.plugins.jenkins;
+package io.jenkins.plugins.catlight;
 
 import hudson.ProxyConfiguration;
 import jenkins.model.Jenkins;

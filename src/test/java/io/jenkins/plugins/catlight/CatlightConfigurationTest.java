@@ -1,4 +1,4 @@
-package io.catlight.plugins.jenkins;
+package io.jenkins.plugins.catlight;
 
 import com.gargoylesoftware.htmlunit.html.HtmlForm;
 import com.gargoylesoftware.htmlunit.html.HtmlTextInput;

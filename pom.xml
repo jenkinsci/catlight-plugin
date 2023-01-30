@@ -8,18 +8,15 @@
         <version>4.52</version>
         <relativePath/>
     </parent>
-    <groupId>io.catlight.plugins.jenkins</groupId>
+    <groupId>io.jenkins.plugins</groupId>
     <artifactId>catlight</artifactId>
     <version>${revision}${changelist}</version>
     <packaging>hpi</packaging>
     <name>CatLight Notification Plugin</name>
     <description>
-        CatLight is an action center for developers.
+        CatLight.io is an action center for developers.
         CatLight app will monitor your Jenkins server, and show desktop notifications when build pipeline starts,
         fails or succeeds.
-        See how to get Jenkins job notifications at https://catlight.io/a/jenkins-build-job-notifications .
-        Learn more about the app at https://catlight.io .
-        This plugin enables accelerated notifications for Jenkins.
     </description>
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <licenses>

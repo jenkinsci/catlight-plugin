@@ -1,4 +1,4 @@
-package io.catlight.plugins.jenkins;
+package io.jenkins.plugins.catlight;
 
 import org.jenkinsci.main.modules.instance_identity.InstanceIdentity;
 
