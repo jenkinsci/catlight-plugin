@@ -1,7 +1,7 @@
 package io.jenkins.plugins.catlight;
 
-import com.gargoylesoftware.htmlunit.html.HtmlForm;
-import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
+import org.htmlunit.html.HtmlForm;
+import org.htmlunit.html.HtmlTextInput;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
